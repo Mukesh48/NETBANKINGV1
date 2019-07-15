@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NETBANKINGV1" duration-ms="39375" started-at="2019-07-13T15:42:16Z" finished-at="2019-07-13T15:42:55Z">
+    <groups>
+    </groups>
+    <test name="BankingApp test" duration-ms="39375" started-at="2019-07-13T15:42:16Z" finished-at="2019-07-13T15:42:55Z">
+      <class name="com.netbanking.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.netbanking.testCases.TC_LoginTest_001@4411d970]" name="setUp" is-config="true" duration-ms="11072" started-at="2019-07-13T15:42:16Z" finished-at="2019-07-13T15:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.netbanking.testCases.TC_LoginTest_001@4411d970]" name="loginTest" duration-ms="1705" started-at="2019-07-13T15:42:27Z" finished-at="2019-07-13T15:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.netbanking.testCases.TC_LoginTest_001@4411d970]" name="tearDown" is-config="true" duration-ms="717" started-at="2019-07-13T15:42:29Z" finished-at="2019-07-13T15:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.netbanking.testCases.TC_LoginTest_001 -->
+      <class name="com.netbanking.testCases.TC_AddCustomer_003">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.netbanking.testCases.TC_AddCustomer_003@6442b0a6]" name="setUp" is-config="true" duration-ms="8240" started-at="2019-07-13T15:42:30Z" finished-at="2019-07-13T15:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.netbanking.testCases.TC_AddCustomer_003@6442b0a6]" name="addNewCustomer" duration-ms="16339" started-at="2019-07-13T15:42:38Z" finished-at="2019-07-13T15:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.netbanking.testCases.TC_AddCustomer_003@6442b0a6]" name="tearDown" is-config="true" duration-ms="725" started-at="2019-07-13T15:42:54Z" finished-at="2019-07-13T15:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.netbanking.testCases.TC_AddCustomer_003 -->
+    </test> <!-- BankingApp test -->
+  </suite> <!-- NETBANKINGV1 -->
+</testng-results>
